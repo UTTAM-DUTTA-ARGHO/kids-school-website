@@ -9,30 +9,40 @@
   font-style: normal;
 }
 
-    
-    
-  
-
-  /* shared styles */
+    /* shared styles */
   .display-flex{
 
     display: flex;
   }
 
-  /* header styles */
+  .btn-primary{
+    background-color: #FF900E;
 
-  .bg-light{
-    background-color: yellowgreen;
+    color: white;
+    padding: 20PX 25PX;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+
   }
+ 
 
+  /* header styles */
 
   /* navbar related styles */
 
   .navbar{
     justify-content: space-between;
-   
+    align-items: center;
 
 
+  }
+
+  .brand{
+
+    font-weight: 500;
+    font-size: 3rem;
   }
   .nav-item{
     list-style: none;
@@ -49,4 +59,18 @@
 
     max-width: 1440;
     margin: 0, auto;
+  }
+
+  /* banner related style */
+  .banner-content{
+
+max-width: 850px;
+margin: 0, auto;
+text-align: center;
+margin-bottom: 50px;
+
+  }
+  .banner-title{
+  font-weight: 700;
+ font-size: 16rem ;
   }
