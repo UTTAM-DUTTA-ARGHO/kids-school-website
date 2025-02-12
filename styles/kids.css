@@ -1,11 +1,52 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 
-.open-sans-font {
-    font-family: "Open Sans", serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
+.work-sans-font {
+  font-family: "Work Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
     
     
+  
+
+  /* shared styles */
+  .display-flex{
+
+    display: flex;
+  }
+
+  /* header styles */
+
+  .bg-light{
+    background-color: yellowgreen;
+  }
+
+
+  /* navbar related styles */
+
+  .navbar{
+    justify-content: space-between;
+   
+
+
+  }
+  .nav-item{
+    list-style: none;
+    margin-right: 30px;
+  
+  }
+
+  .nav-link{
+ text-decoration: none;
+
+  }
+
+  .navbar, .banner{
+
+    max-width: 1440;
+    margin: 0, auto;
   }
