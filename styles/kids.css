@@ -136,12 +136,21 @@ footer{
   justify-content: center;
 }
 
-.footer{
-width: 33.3%;
 
-}
   /* responsive media query */
 
+  .images{
+    display: flex;
+    justify-content: center;
+    bottom: 20px;
+  }
+
+  .our-stories{
+ display: flex;
+ justify-content: center;
+
+
+  }
   @media screen and (max-width: 576px){
 
     .navbar, .nav-links{
