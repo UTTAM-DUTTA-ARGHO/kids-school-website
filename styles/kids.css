@@ -64,7 +64,7 @@
   /* banner related style */
   .banner-content{
 
- width: 60%;
+ width: 70%;
  margin: 0 auto;
 
  margin-bottom: 50px;
@@ -75,7 +75,7 @@
   font-size: 3rem ;
   }
  
-  .flex  {
+  .flex{
    display: flex;
    justify-content: space-between;
    align-items: center;
@@ -83,7 +83,7 @@
   }
 
   .banner-image{
-   width: 40%
+   width: 30%
 
     
   }
@@ -92,6 +92,54 @@
 
   }
 
+  .color2{
+    color: blueviolet;
+  }
+ .color3{
+  color: blue;
+ }
+
+ .color4{
+  color: orangered;
+
+ }
+
+ .color5{
+  color: maroon;
+  
+ }
+
+ .color6{
+  color: black;
+ }
+
+.footer-content{
+
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-size: 12px;
+  color: white;
+}
+
+footer{
+
+  background-color: black;
+  padding-top: 50px;
+}
+
+.container{
+
+  width: 1280px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.footer{
+width: 33.3%;
+
+}
   /* responsive media query */
 
   @media screen and (max-width: 576px){
